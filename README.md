@@ -45,9 +45,9 @@ yarn install
 ### 3. Add your TMDb API key:
 - Create an account on [TMDb](https://www.themoviedb.org/).
 - Get your API key from [TMDb API](https://www.themoviedb.org/settings/api).
-- Add the API key to the `.env` file as follows:
+- Add the API key to the `api.js` file as follows:
 ```
-REACT_APP_API_KEY=your_api_key_here
+API_KEY=your_api_key_here
 ```
 
 ### 4. Run the app:
