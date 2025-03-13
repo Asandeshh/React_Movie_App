@@ -96,4 +96,4 @@ This project is open source and available under the [MIT License](LICENSE).
 - [React](https://reactjs.org/) for building the UI components.
 
 ## Contact
-For questions or suggestions, feel free to open an issue or contact me at [your-email@example.com](mailto:your-email@example.com).
+For questions or suggestions, feel free to open an issue or contact me at [sandeshamith73@gmail.com](mailto:sandeshamith73@gmail.com).
