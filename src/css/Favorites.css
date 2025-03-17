@@ -1,44 +1,81 @@
 .favorites {
-  padding: 2rem;
+  padding: 3rem;
   width: 100%;
   box-sizing: border-box;
+  background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 .favorites h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
-  font-size: 2.5rem;
-  color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 3rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
 }
 
 .favorites-empty {
   text-align: center;
-  padding: 4rem 2rem;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  margin: 2rem auto;
-  max-width: 600px;
+  padding: 5rem 3rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  margin: 3rem auto;
+  max-width: 700px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
 }
 
 .favorites-empty h2 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  color: #e50914;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #ff4d4d;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .favorites-empty p {
-  color: #999;
-  font-size: 1.2rem;
-  line-height: 1.6;
+  color: #dcdcdc;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.favorites-empty:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
 
-/* Animation for new favorites being added */
+.favorites .button {
+  padding: 1rem 2rem;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase;
+}
+
+.favorites .button:hover {
+  background-color: #ff4d4d;
+  transform: translateY(-5px);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
@@ -46,7 +83,37 @@
   }
 }
 
+
 .movies-grid > * {
-  animation: fadeIn 0.3s ease-out forwards;
+  animation: fadeIn 0.5s ease-out forwards;
+  transform-origin: bottom;
 }
 
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.movies-grid > * {
+  border-radius: 12px;
+  background-color: #333;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.movies-grid > *:hover {
+  transform: translateY(-10px);
+}
+
+.movies-grid > *:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 0, 0, 0.8);
+}
+
+
+.movies-grid > *:hover {
+  background: linear-gradient(135deg, #ff4d4d, #e50914);
+  transition: background 0.5s ease;
+}
