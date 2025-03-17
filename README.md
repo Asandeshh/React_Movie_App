@@ -84,7 +84,7 @@ Visit [http://localhost:3000](http://localhost:3000) to see the app in action!
 ![Favorite ](./images/Favorite.png)
 ![Movie Search](./images/search.png)
 
-*(Add your images here in the `images/` folder)*
+
 
 ## Contributing
 Feel free to fork the repository and submit pull requests if you would like to contribute. Please ensure your code is well-tested and follows the project's coding standards.
