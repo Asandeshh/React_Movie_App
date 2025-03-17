@@ -79,8 +79,10 @@ Visit [http://localhost:3000](http://localhost:3000) to see the app in action!
 - **Movie Cards**: Each movie is displayed with its title, release date, and a brief overview.
 
 ## Screenshots
-![Home Page](./images/home-page.png)
-![Movie Details](./images/movie-details.png)
+![Home Page](./images/home.png)
+![Movie Favorite Added](./images/liked.png)
+![Favorite ](./images/Favorite.png)
+![Movie Search](./images/search.png)
 
 *(Add your images here in the `images/` folder)*
 
